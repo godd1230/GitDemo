@@ -13,6 +13,7 @@
 @property (strong, nonatomic) TestAdd* testAdd;
 
 -(void) sayByeBye;
+-(void) test;
 
 @end
 
@@ -27,6 +28,7 @@
     
     [self sayHello];
     [self sayByeBye];
+    [self test];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -42,6 +44,11 @@
 -(void) sayByeBye
 {
     NSLog(@"sayByeBye");
+}
+
+-(void) test
+{
+    NSLog(@"test");
 }
 
 @end
