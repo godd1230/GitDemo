@@ -16,6 +16,7 @@
 		95E94AEA1C101784000F8A47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E94AE81C101784000F8A47 /* LaunchScreen.storyboard */; };
 		95E94AF51C101784000F8A47 /* GitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E94AF41C101784000F8A47 /* GitDemoTests.m */; };
 		95E94B001C101784000F8A47 /* GitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E94AFF1C101784000F8A47 /* GitDemoUITests.m */; };
+		95E94B0E1C102628000F8A47 /* TestAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E94B0D1C102628000F8A47 /* TestAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		95E94AFB1C101784000F8A47 /* GitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95E94AFF1C101784000F8A47 /* GitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitDemoUITests.m; sourceTree = "<group>"; };
 		95E94B011C101784000F8A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95E94B0D1C102628000F8A47 /* TestAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAdd.m; sourceTree = "<group>"; };
+		95E94B0F1C102636000F8A47 /* TestAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestAdd.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				95E94ADB1C101784000F8A47 /* AppDelegate.m */,
 				95E94ADD1C101784000F8A47 /* ViewController.h */,
 				95E94ADE1C101784000F8A47 /* ViewController.m */,
+				95E94B0F1C102636000F8A47 /* TestAdd.h */,
+				95E94B0D1C102628000F8A47 /* TestAdd.m */,
 				95E94AE01C101784000F8A47 /* Main.storyboard */,
 				95E94AE61C101784000F8A47 /* Assets.xcassets */,
 				95E94AE81C101784000F8A47 /* LaunchScreen.storyboard */,
@@ -277,6 +282,7 @@
 				95E94AE51C101784000F8A47 /* GitDemo.xcdatamodeld in Sources */,
 				95E94ADC1C101784000F8A47 /* AppDelegate.m in Sources */,
 				95E94AD91C101784000F8A47 /* main.m in Sources */,
+				95E94B0E1C102628000F8A47 /* TestAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

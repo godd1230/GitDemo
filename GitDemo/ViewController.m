@@ -10,6 +10,8 @@
 
 @interface ViewController ()
 
+@property (strong, nonatomic) TestAdd* testAdd;
+
 @end
 
 @implementation ViewController
