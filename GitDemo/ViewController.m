@@ -26,6 +26,7 @@
     NSLog(@"mSum = %d", self.mSum);
     
     [self sayHello];
+    [self sayByeBye];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -36,6 +37,11 @@
 -(void) sayHello
 {
     NSLog(@"hello");
+}
+
+-(void) sayByeBye
+{
+    NSLog(@"sayByeBye");
 }
 
 @end
