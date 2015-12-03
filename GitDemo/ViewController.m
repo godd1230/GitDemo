@@ -12,6 +12,8 @@
 
 @property (strong, nonatomic) TestAdd* testAdd;
 
+-(void) sayByeBye;
+
 @end
 
 @implementation ViewController
@@ -22,11 +24,18 @@
     
     self.mSum = 0;
     NSLog(@"mSum = %d", self.mSum);
+    
+    [self sayByeBye];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void) sayByeBye
+{
+    NSLog(@"sayByeBye");
 }
 
 @end
