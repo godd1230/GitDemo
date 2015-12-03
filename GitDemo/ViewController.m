@@ -12,6 +12,8 @@
 
 @property (strong, nonatomic) TestAdd* testAdd;
 
+-(void) sayByeBye;
+
 @end
 
 @implementation ViewController
